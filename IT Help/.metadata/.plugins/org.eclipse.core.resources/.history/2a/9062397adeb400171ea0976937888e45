@@ -1,0 +1,41 @@
+package main;
+
+public class Dog 
+{
+	String breed, gender, name, birth;
+	int weight;
+	
+	
+	
+	public Dog(String breed, String gender, String name, String birth, int weight) {
+		super();
+		try {
+			this.breed = breed;
+			this.gender = gender;
+			this.name = name;
+			this.birth = birth;
+			this.weight = weight;
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public Dog()
+	{
+		breed = "Cool";
+		gender = "Helicopter";
+		name = "Death";
+		birth = "2000-02-13";
+		weight = 5;
+	}
+	
+	public Dog(String name_i)
+	{
+		breed = "Cool";
+		gender = "Helicopter";
+		name = "Death";
+		birth = "2000-02-13";
+		weight = 5;
+	}
+}

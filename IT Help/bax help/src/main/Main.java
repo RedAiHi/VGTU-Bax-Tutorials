@@ -1,0 +1,38 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) 
+	{
+//		try
+//		{
+//			
+//		}
+//		catch()
+//		{
+//			
+//		}
+		
+		try {
+			//throw new IndexOutOfBoundsException();
+			System.out.println("blabla");
+			
+			int i = 1;
+			int j = 10;
+			Dog jake = new Dog();
+			Dog graf;
+			
+			int dogage = jake.getAge(2017);
+			
+			System.out.println(dogage);
+		} 
+		catch (Exception e) 
+		{
+			// TODO Auto-generated catch block
+
+			System.out.println("Oops");
+			e.printStackTrace();
+		}
+	}
+
+}

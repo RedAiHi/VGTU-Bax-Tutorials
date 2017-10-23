@@ -1,0 +1,12 @@
+package main;
+
+public class Dog 
+{
+	String breed, gender, name, birth;
+	int weight;
+	
+	public Dog()
+	{
+		
+	}
+}

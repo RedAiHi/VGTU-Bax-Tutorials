@@ -1,0 +1,25 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) 
+	{
+//		try
+//		{
+//			
+//		}
+//		catch()
+//		{
+//			
+//		}
+		
+		try {
+			System.out.println("blabla");
+		} catch (Exception e) 
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

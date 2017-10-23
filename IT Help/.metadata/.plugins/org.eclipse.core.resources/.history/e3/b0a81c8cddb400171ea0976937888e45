@@ -1,0 +1,25 @@
+package main;
+
+public class Dog 
+{
+	String breed, gender, name, birth;
+	int weight;
+	
+	public Dog()
+	{
+		breed = "Cool";
+		gender = "Helicopter";
+		name = "Death";
+		birth = "2000-02-13";
+		weight = 5;
+	}
+	
+	public Dog()
+	{
+		breed = "Cool";
+		gender = "Helicopter";
+		name = "Death";
+		birth = "2000-02-13";
+		weight = 5;
+	}
+}
